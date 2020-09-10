@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+#wrap{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+header{
+    height: 325px;
+    background-color: coral;
+}
+
+main{
+    height: 800px;
+    background-color: rgb(231, 114, 71);
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(212, 104, 65);
+}
+
+nav{
+    height: 200px;
+    background-color: rgb(0, 66, 0);
+}
+
+#title{
+    height: 200px;
+    background-color: rgb(0, 87, 0);
+}
+
+#banner{
+    height: 200px;
+    background-color: rgb(1, 105, 1);
+}
+
+#contents{
+    height: 200px;
+    background-color: rgb(2, 131, 2);
+}
+
+.container{
+    width: 990px;
+    margin: 0 auto;
+    height: inherit;
+    background-color: rgba(255,255,255,0.3);
+}

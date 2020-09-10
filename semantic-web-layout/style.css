@@ -12,7 +12,7 @@ header{
     background-color: bisque;
 }
 
-nav{
+header > nav{
     float: right;
     background-color: aliceblue;
 }
@@ -31,13 +31,14 @@ main{
     row-gap: 20px;
 }
 
-aside{
+main > nav {
     background-color: lightgreen;
     text-align: center;
     padding: 10px;
 }
 
-aside > ul{
+
+nav > ul{
     background-color: lavender;
     list-style-type: none;
     text-align: center;

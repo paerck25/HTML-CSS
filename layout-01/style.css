@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(148, 172, 245);
+}
+
+.container{
+    width: 1000px;
+    height: 900px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+header{
+    width: 1000px;
+    height: 100px;
+    background-color: blue;  
+}
+
+nav{
+    width: 1000px;
+    height: 100px;
+    background-color: deepskyblue
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+aside.left{
+    width: 200px;
+    height: 600px;
+    background-color: dodgerblue;
+}
+
+aside.right{
+    width: 200px;
+    height: 600px;
+    background-color: cornflowerblue;
+}
+
+section{
+    width: 600px;
+    height: 600px;
+    background-color: lightsteelblue;
+    
+}
+
+article{
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+footer{
+    width: 1000px;
+    height: 100px;
+    background-color: slateblue;
+}
